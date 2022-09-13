@@ -10,7 +10,7 @@ public class Main {
         int user;
         Scanner sc = new Scanner(System.in);
 
-
+//do loop
         do {
             System.out.println("""
                     Velkommen til SUPER HERO UNIVERSE.

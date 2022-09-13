@@ -12,7 +12,7 @@ public class Superhero {
         this.height = height;
         this.HumanOrNot = HumanOrNot;
     }
-
+//get
     public String getSuperheroname() {
         return superHeroName;
     }

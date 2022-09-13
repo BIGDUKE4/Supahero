@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Database {
 
-    //Array
+    //Arrays
     private ArrayList<Superhero> superheroes = new ArrayList<>();
     private int count = 0;
 
