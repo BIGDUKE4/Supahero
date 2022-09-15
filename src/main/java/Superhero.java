@@ -1,14 +1,14 @@
 public class Superhero {
     private String superHeroName;
-    private String Superpower;
-    private int Creationyear;
+    private String SuperPower;
+    private int CreationYear;
     private double height;
     private boolean HumanOrNot;
 
     public Superhero (String Superheroname, String Superpower, int Creationyear, double height, boolean HumanOrNot){
         this.superHeroName = Superheroname;
-        this.Superpower = Superpower;
-        this.Creationyear = Creationyear;
+        this.SuperPower = Superpower;
+        this.CreationYear = Creationyear;
         this.height = height;
         this.HumanOrNot = HumanOrNot;
     }
@@ -18,11 +18,11 @@ public class Superhero {
     }
 
     public String getSuperpower() {
-        return Superpower;
+        return SuperPower;
     }
 
-    public int getCreationyear() {
-        return Creationyear;
+    public int getCreationYear() {
+        return CreationYear;
     }
 
     public boolean isHumanOrNot() {
@@ -38,11 +38,11 @@ public class Superhero {
     }
 
     public void setSuperpower(String superpower) {
-        Superpower = superpower;
+        SuperPower = superpower;
     }
 
-    public void setCreationyear(int creationyear) {
-        Creationyear = creationyear;
+    public void setCreationYear(int creationYear) {
+        CreationYear = creationYear;
     }
 
     public void setHeight(double height) {
@@ -51,5 +51,9 @@ public class Superhero {
 
     public void setHumanOrNot(boolean humanOrNot) {
         HumanOrNot = humanOrNot;
+    }
+    public String toString (){
+        return "SuperheroName:" + " " + superHeroName + ", " + "Superpower:" + " "+ SuperPower + ", " + "CreationYear:" + " " + CreationYear
+                + ", " + "Height:" + " " + height + ", " + "HumanOrNot:" + " " + HumanOrNot + ". ";
     }
 }
