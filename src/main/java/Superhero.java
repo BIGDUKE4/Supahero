@@ -4,7 +4,7 @@ public class Superhero {
     private int CreationYear;
     private double height;
     private boolean HumanOrNot;
-
+//s
     public Superhero (String Superheroname, String Superpower, int Creationyear, double height, boolean HumanOrNot){
         this.superHeroName = Superheroname;
         this.SuperPower = Superpower;

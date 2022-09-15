@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Database {
 
-    //Arraylist til superhero objects
+    //Arraylist til superhero objectss
     private ArrayList<Superhero> superheroes = new ArrayList<>();
     public ArrayList <Superhero> acessSuperheroes (){return superheroes;}
 
